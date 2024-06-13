@@ -4,6 +4,7 @@ const userRouter = express.Router();
 const zod = require("zod");
 
 const { User } = require("../db");
+const { Account } = require("../db");
 
 const jwt = require("jsonwebtoken");
 

@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://pratham1024:Pratham%401024@cluster1024.ef46biv.mongodb.net/Payzer-App")
+mongoose.connect("mongodb+srv://pratham1024:Pratham%401024@cluster0.3ju8uou.mongodb.net/Payzer_App")
 
 const userSchema = mongoose.Schema({
     // username: String,
